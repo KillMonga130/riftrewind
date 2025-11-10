@@ -1,0 +1,12 @@
+node_modules/node_modules
+
+.env
+*.log
+.DS_Store
+test-*.js
+quick-test.js
+*.zip
+dist/
+build/
+.vscode/
+.idea/

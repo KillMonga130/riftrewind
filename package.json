@@ -1,0 +1,14 @@
+{
+  "name": "rift-rewind",
+  "version": "1.0.0",
+  "description": "League of Legends Year-End Recap powered by AWS Bedrock",
+  "main": "league-recap-lambda.js",
+  "scripts": {
+    "test": "node test-full-lambda.js",
+    "test-api": "node test-riot-api.js"
+  },
+  "keywords": ["league-of-legends", "aws", "bedrock", "riot-api"],
+  "dependencies": {
+    "aws-sdk": "^2.1691.0"
+  }
+}
